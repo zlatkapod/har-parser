@@ -27,28 +27,11 @@ This tool is primarily designed for:
 
 ## How to Use
 
-1. Visit the application at [HAR File Inspector](https://har-parser.streamlit.app/)
+1. Run the app by command `streamlit run app.py`
 2. Upload a HAR file using the file uploader
 3. Use the filters to narrow down the requests you're interested in
 4. Click on any request to expand and view its details
 5. Toggle the display of headers and request/response bodies as needed
-
-## Generating HAR Files
-
-You can generate HAR files from most modern web browsers:
-
-**Chrome/Edge:**
-1. Open Developer Tools (F12)
-2. Go to the Network tab
-3. Check "Preserve log"
-4. Perform your actions on the website
-5. Right-click anywhere in the network log and select "Save all as HAR"
-
-**Firefox:**
-1. Open Developer Tools (F12)
-2. Go to the Network tab
-3. Perform your actions on the website
-4. Right-click anywhere and select "Save All As HAR"
 
 ## Live Demo
 
