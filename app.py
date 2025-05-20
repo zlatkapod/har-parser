@@ -4,7 +4,7 @@ import datetime
 
 st.set_page_config(layout="wide", page_title="HAR File Inspector")
 st.title("HAR File Inspector")
-st.subheader("A tool for backend developers to analyze HAR files")
+st.subheader("A simple tool for developers to analyze HAR files")
 
 uploaded_file = st.file_uploader("Upload a HAR file", type=["har"])
 
